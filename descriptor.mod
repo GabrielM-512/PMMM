@@ -11,9 +11,5 @@ tags={
 	"Fixes"
 }
 name="PMMM"
-<<<<<<< Updated upstream
 supported_version="1.16.0"
-remote_file_id="3439068425"
-=======
-supported_version="1.16.0"
->>>>>>> Stashed changes
+path="C:/Users/Gabri/OneDrive/Dokumente/Paradox Interactive/Hearts of Iron IV/mod"

@@ -3860,7 +3860,7 @@ country_event = { #Vorarlberg will join Switzerland
 		}
 		transfer_state = 848
 		848 = {
-			add_core_of = SWI
+			add_core_of = NIX
 		}
 		set_country_flag = SWI_got_vorarlberg
 
