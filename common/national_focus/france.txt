@@ -3887,7 +3887,8 @@
 			factor = 1
 		}
 		available = {
-			has_country_leader = { ruling_only = yes character = FRA_charles_de_gaulle}
+			#has_country_leader = { ruling_only = yes character = FRA_charles_de_gaulle}
+			has_global_flag = PMMM_FRA_CAP
 		}
 		
 		bypass = {
@@ -4469,12 +4470,12 @@
 			
 		}
 		
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}
 		available = {
-			
+			has_idea = FRA_defeatism
 			
 			
 		}
@@ -4487,6 +4488,14 @@
 		available_if_capitulated = yes
 		completion_reward = {
 			remove_ideas = { FRA_defeatism }
+			add_offsite_building = {
+				type = industrial_complex
+				level = 3
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 3
+			}
 		}
 	}
 	focus = {
